@@ -11,9 +11,7 @@ LABEL maintainer="thelamer"
 
 # environment settings
 ENV XDG_DATA_HOME="/config" \
-XDG_CONFIG_HOME="/config" \
-PORT=9117 \
-HOST=0.0.0.0
+XDG_CONFIG_HOME="/config"
 
 RUN \
   echo "**** install packages ****" && \
